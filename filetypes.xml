@@ -1,0 +1,9 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern=".COMMIT_EDITMSG.swp" type="PLAIN_TEXT" />
+      <mapping ext="md" type="PLAIN_TEXT" />
+      <mapping pattern="explanition" type="XHTML" />
+    </extensionMap>
+  </component>
+</application>
