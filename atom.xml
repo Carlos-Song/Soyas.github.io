@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-08-11T15:30:34.000Z</updated>
+  <updated>2017-08-17T17:12:02.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,21 +16,58 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://yoursite.com/2017/08/11/Test/"/>
-    <id>http://yoursite.com/2017/08/11/Test/</id>
-    <published>2017-08-11T14:06:46.000Z</published>
-    <updated>2017-08-11T15:30:34.000Z</updated>
+    <title>Vue.js的学习之路</title>
+    <link href="http://yoursite.com/2017/08/18/Step2-%E7%BC%96%E5%86%99%E8%87%AA%E5%B7%B1%E7%9A%84%E7%A8%8B%E5%BA%8F/"/>
+    <id>http://yoursite.com/2017/08/18/Step2-编写自己的程序/</id>
+    <published>2017-08-17T17:06:00.000Z</published>
+    <updated>2017-08-17T17:12:02.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="基于Node-js—Express-Hexo-搭建个人博客部署"><a href="#基于Node-js—Express-Hexo-搭建个人博客部署" class="headerlink" title="基于Node.js—Express + Hexo 搭建个人博客部署"></a>基于Node.js—Express + Hexo 搭建个人博客部署</h1><h2 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h2><p>  此教程由于是基于Node.js，需要安装Node.js</p>
-<h2 id="使用Express-hexo"><a href="#使用Express-hexo" class="headerlink" title="使用Express + hexo"></a>使用Express + hexo</h2><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2>]]></content>
+    <content type="html"><![CDATA[<a id="more"></a>
+<h2 id="起步："><a href="#起步：" class="headerlink" title="起步："></a>起步：</h2><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><h3 id="然后还是我Hello-World…"><a href="#然后还是我Hello-World…" class="headerlink" title="然后还是我Hello World…"></a>然后还是我Hello World…</h3>]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;基于Node-js—Express-Hexo-搭建个人博客部署&quot;&gt;&lt;a href=&quot;#基于Node-js—Express-Hexo-搭建个人博客部署&quot; class=&quot;headerlink&quot; title=&quot;基于Node.js—Express + Hexo 搭建个人博
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;起步：&quot;&gt;&lt;a href=&quot;#起步：&quot; class=&quot;headerlink&quot; title=&quot;起步：&quot;&gt;&lt;/a&gt;起步：&lt;/h2&gt;&lt;h3 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=
     
     </summary>
     
+    
+      <category term="Vue" scheme="http://yoursite.com/tags/Vue/"/>
+    
+      <category term="js" scheme="http://yoursite.com/tags/js/"/>
+    
+      <category term="实践" scheme="http://yoursite.com/tags/%E5%AE%9E%E8%B7%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vue.js的学习之路</title>
+    <link href="http://yoursite.com/2017/08/18/Step1-Vue%E7%9A%84%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
+    <id>http://yoursite.com/2017/08/18/Step1-Vue的学习方法/</id>
+    <published>2017-08-17T16:26:00.000Z</published>
+    <updated>2017-08-17T17:11:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<h2 id="Vue-js是什么"><a href="#Vue-js是什么" class="headerlink" title="Vue.js是什么"></a>Vue.js是什么</h2><p>Vue是一个用来开Web界面的前端库，是个非常轻量级的<strong>MV*</strong>框架（MVC/MVVM/MVW）</p>
+<p>Vue 的核心库只关注视图层，并且非常容易学习，非常容易与其它库或已有项目整合。另一方面，Vue 完全有能力驱动采用单文件组件和Vue生态系统支持的库开发的复杂单页应用</p>
+<h2 id="为什么使用Vue-js"><a href="#为什么使用Vue-js" class="headerlink" title="为什么使用Vue.js"></a>为什么使用Vue.js</h2><p>特点：<br>. 轻量级<br>. 灵活<br>. 性能较好<br>. 易上手</p>
+<p>但是当你选择了Vue.js，意味着你讲不能在IE8及更低版本的IE浏览器的支持，因为Vue大部分的语法是基于ES6，上述版本的IE浏览器无法兼容这一特性。</p>
+<h2 id="如何实践"><a href="#如何实践" class="headerlink" title="如何实践"></a>如何实践</h2><h2 id="扩展"><a href="#扩展" class="headerlink" title="扩展"></a>扩展</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;Vue-js是什么&quot;&gt;&lt;a href=&quot;#Vue-js是什么&quot; class=&quot;headerlink&quot; title=&quot;Vue.js是什么&quot;&gt;&lt;/a&gt;Vue.js是什么&lt;/h2&gt;&lt;p&gt;Vue是一个用来开Web界面的前端库，是个非常轻
+    
+    </summary>
+    
+    
+      <category term="Vue" scheme="http://yoursite.com/tags/Vue/"/>
+    
+      <category term="js" scheme="http://yoursite.com/tags/js/"/>
+    
+      <category term="实践" scheme="http://yoursite.com/tags/%E5%AE%9E%E8%B7%B5/"/>
     
   </entry>
   
