@@ -12,10 +12,10 @@
 <meta name="keywords" content="js,实践,Node">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Node.js学习实践1">
-<meta property="og:url" content="http://yoursite.com/2017/08/19/ubuntu配置Npde及环境变量/index.html">
+<meta property="og:url" content="http://yoursite.com/2017/08/19/ubuntu配置Node及环境变量/index.html">
 <meta property="og:site_name" content="Soyas&#39;s Blog">
 <meta property="og:description" content="安装首先进入根目录cd /然后通过wget安装我们的Node运行宝，官网是node-v6.11.2-linux-x64.tar.xz，这个版本是目前比较稳定的版本，如果不需要新本特性，请安装此版本，避免新版本带来的兼容性问题wget https://nodejs.org/dist/v6.11.2/node-v6.11.2-linux-x64.tar.xz *同样也可以通过apt安装，但是这种安装">
-<meta property="og:updated_time" content="2017-08-18T11:50:28.000Z">
+<meta property="og:updated_time" content="2017-08-18T11:53:29.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Node.js学习实践1">
 <meta name="twitter:description" content="安装首先进入根目录cd /然后通过wget安装我们的Node运行宝，官网是node-v6.11.2-linux-x64.tar.xz，这个版本是目前比较稳定的版本，如果不需要新本特性，请安装此版本，避免新版本带来的兼容性问题wget https://nodejs.org/dist/v6.11.2/node-v6.11.2-linux-x64.tar.xz *同样也可以通过apt安装，但是这种安装">
@@ -158,7 +158,7 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-ubuntu配置Npde及环境变量" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-ubuntu配置Node及环境变量" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
@@ -170,7 +170,7 @@
   
 
         
-        <a href="/2017/08/19/ubuntu配置Npde及环境变量/" class="archive-article-date">
+        <a href="/2017/08/19/ubuntu配置Node及环境变量/" class="archive-article-date">
   	<time datetime="2017-08-18T23:06:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-08-19</time>
 </a>
         
@@ -183,9 +183,9 @@
 <p>*同样也可以通过apt安装，但是这种安装方式会安装较低版本的Node，所以不推荐</p>
 <p>接着初始文件是一个xz格式的压缩包，解压xz：<br><code><pre>xz -d node-v6.11.2-linux-x64.tar.xz</pre></code></p>
 <p>得到一个tar包后继续解压：<br><code><pre>tar -xvf node-v6.11.2-linux-x64.tar</pre></code></p>
-<p>可以通过 <code>ls</code>命令查看文件<br>接下来是配置环境变量：<br><code><pre>ln -s /node-v6.11.2-linux-x64/bin/node /usr/local/node  //配置Node启动命令</pre></code><br><code><pre>ln -s /node-v6.11.2-linux-x64/bin/npm /usr/local/npm    //配置npm启动命令</pre></code></p>
+<p>可以通过 <code>ls</code>命令查看文件<br>接下来是配置环境变量：<br><code><pre>ln -s /node-v6.11.2-linux-x64/bin/node /usr/local/node  //配置Node启动命令<br>ln -s /node-v6.11.2-linux-x64/bin/npm /usr/local/npm    //配置npm启动命令</pre></code></p>
 <p>然后我们通过<code>node -v</code>,<code>npm -v</code>，我们使用&amp;&amp;把他们合并执行<br><code><pre>node -v &amp;&amp; npm -v/code&gt;</pre></code></p>
-<p>当你看到<code>shell</code>输出:<br><code><pre>v6.11.2/code&gt;</pre></code><br><code><pre>3.10.10/code&gt;</pre></code></p>
+<p>当你看到<code>shell</code>输出:<br><code><pre>v6.11.2/code&gt;<br>3.10.10/code&gt;</pre></code></p>
 <p>安装基本完成，由于npm版本较低，需要的可以通过<code>npm -g install npm@version</code>自行升级</p>
 <h1 id="完"><a href="#完" class="headerlink" title="完"></a>完</h1>
       
@@ -285,7 +285,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2017/08/19/ubuntu配置Npde及环境变量/" alt="微信分享二维码">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2017/08/19/ubuntu配置Node及环境变量/" alt="微信分享二维码">
     </div>
 </div>
 
